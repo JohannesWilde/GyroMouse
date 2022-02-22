@@ -1,0 +1,6 @@
+[submodule "Arduino-CMake-Toolchain"]
+	path = libraries/Arduino-CMake-Toolchain
+	url = ssh://git@dwarfy:2289/arduino/libraries/Arduino-CMake-Toolchain.git
+[submodule "MPU9250_WE"]
+	path = libraries/MPU9250_WE
+	url = ssh://git@dwarfy:2289/arduino/libraries/MPU9250_WE.git
