@@ -12,7 +12,10 @@
 *
 ***************************************************************************/
 
-#include <MPU9250_WE.h>
+// For development purposes only - this hard-codes the Arduino UNO MCU, as my IDE
+// somehow fails to detect this automatically via CMake.
+#define __AVR_ATmega328P__
+
 #include <Wire.h>
 #define MPU9250_ADDR 0x68
 
