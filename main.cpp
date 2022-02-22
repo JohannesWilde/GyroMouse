@@ -16,7 +16,10 @@
 // somehow fails to detect this automatically via CMake.
 #define __AVR_ATmega328P__
 
+#include <Arduino.h>
 #include <Wire.h>
+
+#include <MPU9250_WE.h>
 #define MPU9250_ADDR 0x68
 
 /* There are several ways to create your MPU9250 object:
